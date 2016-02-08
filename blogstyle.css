@@ -1,0 +1,31 @@
+#manImg>img{
+	
+	width:80%;
+	margin-left:5%;
+	
+	
+}
+
+#manImg{
+	display: inline-block;
+	float:left;
+	width:40%;
+	margin-top: 10%;
+}
+#manDisc{
+	float:right;
+	width:60%;
+	display:inline-block;
+	
+}
+
+#manDisc>h1{
+	margin-top:25%;
+	font-size: 50px;
+	
+}
+#manDisc>p{
+	font-size: 20px;
+	margin-right:5%;
+	
+}
