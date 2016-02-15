@@ -27,11 +27,9 @@ li>a:active{
 }
 .nav{
 	background-color:#93601D;
-	
-	
 	width:100%;
 	height:30px;
-	display:inline-block;
+	display:block;
 	margin:auto;
 	margin-left:auto;
 	margin-right:auto;
@@ -57,21 +55,12 @@ li>a:active{
 }
 .headercontent img{
 	
-	/*max-height: 350px;
-	max-width: 350px;*/
-	/*auto*/
-	width:100%;  
-	height: 100%;
+	max-height: 350px;
+	max-width: 350px;
+	width:auto;
+	height: auto;
 	margin-left: 5px;
 }
-
-
-.header .headercontent .logo{
-	width:30%;
-	float:left;
-	display:inline;	
-}
-
 .header .headercontent .info>h1>a{
 	color:#db5f49;
 	text-decoration:none;
@@ -79,11 +68,10 @@ li>a:active{
 }
 .header .info{
 	font-size:12px;
-	display:inline;
+	display:inline-block;
 	float:right;
 	color:#000000;
 	margin: 10px;
-	width:40%;  /*i added this */
 	/*border-left: 2px dashed #b4aa9d;
 	border-bottom: 2px dashed #b4aa9d;*/
 	padding: 10px;
@@ -91,19 +79,8 @@ li>a:active{
 	
 }
 
-@media screen and (min-width: 480px){
-	.header .info{
-		padding:0;
-	}
-}
-.header .info .infoInside{
-	
-	width:100%;
-	height:100%;
-	margin:5px;
-}
-.header .headercontent .info .infoInside>h1>a:hover,
-.header .headercontent .info .infoInside>h1>a:active{
+.header .headercontent .info>h1>a:hover,
+.header .headercontent .info>h1>a:active{
 	color: #93601D;
 }
 
@@ -324,14 +301,14 @@ textarea{
 
 .sectionAbout .hook-about{
 position:absolute;
-/*top:30%;*/
-top:250px;
-/*left: 10px;
+top:30%;
+/*top:200px;
+left: 10px;
 width:400px;*/
 width:100%;
 color:#fff;
 font-size: 50px;
-padding:0px 0px 0px 0px;
+padding:50px 0px 0px 0px;
 text-align:center;
 
 }
@@ -592,4 +569,3 @@ text-align:center;
 .wrapperAside{
 	height:100%;
 }
-
