@@ -55,12 +55,12 @@ li>a:active{
 }
 .headercontent img{
 	
-	/*max-height: 350px;
+	max-height: 350px;
 	max-width: 350px;
 	width:auto;
-	height: auto;*/
-	width:auto;
-	height:auto;
+	height: auto;
+	
+
 	margin-left: 5px;
 }
 .header .headercontent .info>h1>a{
